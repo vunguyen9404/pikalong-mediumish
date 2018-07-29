@@ -1,6 +1,8 @@
 # Pikalong Mediumish Theme
 ![Pikalong Mediumish](https://i.imgur.com/s0RLQnP.png)
+
 > A [Ghost](https://ghost.org/) theme focused on content based on [Medium](https://medium.com) design/ux.
+
 **NOT UNDER ACTIVE DEVELOPMENT**
 
 ## Live demo
@@ -16,7 +18,7 @@
 * OpenGraph and Twitter Cards meta's
 * Baseline HTML5 features, DNS prefetching, responsive meta
 
-##Installing
+## Installing
 
 ### Manually
 1. Download the files using the [GitHub .zip download](https://github.com/vunguyen9404/pikalong-mediumish/archive/master.zip) option
