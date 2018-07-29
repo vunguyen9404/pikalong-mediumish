@@ -1,0 +1,12 @@
+{{!< default}}
+{{> layout/header this}}
+<div class="container">
+     {{> layout/title-site title="Pikalong's Blog" description="Bootstrap theme, medium style, simply perfect for bloggers"}}
+
+    {{> layout/all-stories this}}
+
+    {{#if pagination}}
+        {{pagination}}
+    {{/if}}
+</div>
+{{> layout/footer this }}

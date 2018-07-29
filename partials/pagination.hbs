@@ -1,0 +1,16 @@
+<div class="bottompagination">
+	<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <nav class="pagination" role="navigation">
+        {{#if prev}}
+            <a class="newer-posts" href="{{page_url prev}}">
+                <i class="fa fa-angle-double-left"></i>
+            </a>
+        {{/if}}
+        <span class="page-number">Page {{page}} of {{pages}}</span>
+        {{#if next}}
+            <a class="older-posts" href="{{page_url next}}">
+                <i class="fa fa-angle-double-right"></i>
+            </a>
+        {{/if}}
+    </nav>
+</div>
