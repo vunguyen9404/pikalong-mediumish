@@ -1,7 +1,7 @@
 <script>
 	{{#post}}
 	var disqus_identifier = '{{comment_id}}';
-	var page_url = '{{url}}'
+	var page_url = '{{absolute_url}}'
 	{{/post}}
 	var disqus_config = function () {
 		this.page.url = page_url;  // Replace PAGE_URL with your page's canonical URL variable
