@@ -661,7 +661,8 @@ pre[class*="language-"].line-numbers > code {
 .article-post .kg-card-markdown img {
     border: 0;
     max-width: 100%;
-    margin: 0 auto;
+	margin: 0 auto;
+	width: 100%;
 }
 ul.tags.sm {
 	margin: 0;
