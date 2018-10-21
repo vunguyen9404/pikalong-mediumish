@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# pikalong-mediumish
-Ghost blog theme like medium UI
-=======
+
 # Pikalong Mediumish Theme
 ![Pikalong Mediumish](https://i.imgur.com/s0RLQnP.png)
 
@@ -37,4 +34,3 @@ Ghost blog theme like medium UI
 ## History
 
 ## License
->>>>>>> 8e70a8c5a465087500b8ac628e35080f1a2f91c8
