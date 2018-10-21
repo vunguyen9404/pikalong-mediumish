@@ -1,0 +1,46 @@
+ {{!< default}}
+{{> layout/header this}}
+
+{{#author}}
+<!-- Begin Top Author Page
+================================================== -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 col-md-offset-2">
+			<div class="mainheading">
+				<div class="row post-top-meta authorpage">
+					<div class="col-md-10 col-xs-12">
+						<h1>{{name}}</h1>
+						<span class="author-description">{{bio}}</span>
+						<div class="sociallinks"><a  target="_blank" href="{{facebook}}"><i class="fa fa-facebook"></i></a> <span class="dot"></span> <a target="_blank" href="{{twitter}}"><i class="fa fa-twitter"></i></a></div>
+						<a target="_blank" href="{{url}}" class="btn follow">Follow</a>
+					</div>
+					<div class="col-md-2 col-xs-12">
+						<img class="author-thumb" src="{{profile_image}}" alt="{{name}}">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Top Author Meta
+================================================== -->
+{{/author}}
+
+<!-- Begin Author Posts
+================================================== -->
+<div class="graybg authorpage">
+	<div class="container">
+		{{> layout/author this}}
+
+		{{#if pagination}}
+			{{pagination}}
+		{{/if}}
+	</div>
+</div>
+<!-- End Author Posts
+================================================== -->
+
+{{> layout/footer this}}
+

@@ -1,0 +1,14 @@
+{{!< default}}
+{{> layout/header this}}
+<div class="container">
+    {{> layout/title-site this}}
+    
+    {{> layout/feature }}
+
+    {{> layout/all-stories this}}
+
+    {{#if pagination}}
+        {{pagination}}
+    {{/if}}
+</div>
+{{> layout/footer this }}

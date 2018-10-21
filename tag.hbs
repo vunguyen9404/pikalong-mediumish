@@ -1,0 +1,34 @@
+{{!< default}}
+
+{{> layout/header this}}
+<div class="container">
+    {{#tag}}
+    <div class="tag-cover">
+        <div class="jumbotron" style="background-image: url('{{feature_image}}'); border-radius: 0px;">
+            <div class="container">
+                <h1 class="tag-title">{{name}}</h1>
+                <span class="tag-description">{{description}}</span>
+                <div class="tag-sociallinks">
+                    <a  target="_blank" href="{{url}}">
+                        <i class="fa fa-facebook"></i></a> <span class="dot"></span> <a target="_blank" href="{{url}}">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/tag}}
+    <div class="tag-list-post">
+        <div class="section-title">
+            <h2><span>All Stories</span></h2>
+        </div>
+        <div class="authorpage">
+            {{> layout/author this}}
+
+            {{#if pagination}}
+                {{pagination}}
+            {{/if}}
+        </div>
+        {{> layout/footer this}}
+    </div>
+</div>

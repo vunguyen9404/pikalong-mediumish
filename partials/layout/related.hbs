@@ -1,0 +1,15 @@
+{{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="authors" as |related|}}
+<!-- Begin Related
+================================================== -->
+<div class="graybg">
+	<div class="container">
+		<div class="row listrecent listrelated">
+            {{#foreach related}}
+                {{> list/related-post}}
+            {{/foreach}}
+		</div>
+	</div>
+</div>
+<!-- End Related Posts
+================================================== -->
+{{/get}}

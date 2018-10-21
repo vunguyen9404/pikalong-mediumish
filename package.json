@@ -1,0 +1,37 @@
+{
+    "name": "pikalong-mediumish",
+    "version": "1.0.0",
+    "description": "A Ghost theme focused on content based on Medium design/ux",
+    "url": "http://pikalong.me",
+    "copyright": "2018",
+    "license": "MIT",
+    "author": {
+      "name": "Nguyen Vu",
+      "email": "vunvd00172@fpt.edu.vn",
+      "url": "http://pikalong.me"
+    },
+    "config": {
+      "posts_per_page": 6
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:vunguyen9404/pikalong-mediumish.git"
+    },
+    "bugs": {
+      "url": "https://github.com/vunguyen9404/pikalong-mediumish/issues"
+    },
+    "keywords": [
+      "ghost",
+      "blog",
+      "theme",
+      "medium"
+    ],
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {
+      "node": ">=8.9"
+    },
+    "scripts": {
+    }
+}
+  
